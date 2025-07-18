@@ -35,19 +35,21 @@
     header h1 {
       margin: 0.2em 0;
     }
-
     .profile-photo {
-      display: block;
-      margin: -80px auto 1.5em auto;
-      border-radius: 50%;
-      width: 160px;
-      height: 160px;
-      object-fit: cover;
-      border: 4px solid white;
-      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-      background-color: white;
+       display: block;
+       margin: -80px auto 30px auto;
+       border-radius: 50%;
+       width: 160px;
+       height: 160px;
+       object-fit: cover;
+       border: 4px solid white;
+       box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+       background-color: white;
+       position: relative;
+       z-index: 10;
     }
 
+         
     nav {
       background-color: white;
       text-align: center;
@@ -142,7 +144,7 @@
 
   <section id="about">
     <h2>👋 About Me</h2>
-    <p>
+    <p class="justify">
       I’m a passionate researcher in planetary science, focusing on impact cratering processes using DEM simulations, SHPB experiments, and numerical models like iSALE. I'm currently pursuing my master's in Earth Sciences at IIT Kanpur and plan to pursue a PhD in planetary impacts.
     </p>
   </section>
@@ -188,8 +190,4 @@
 
 </body>
 </html>
-    <li>LinkedIn: <a href="https://www.linkedin.com/in/hitesh-arunagiri/" target="_blank">linkedin.com/in/YOURPROFILE</a></li>
-  </ul>
-
-</body>
-</html>
+    
